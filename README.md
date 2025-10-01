@@ -22,40 +22,39 @@
 
 1. 새로운 기능 추가
 
-```
-feat: Add player health system
+    ```
+    feat: Add player health system
     
-- Implemented health points and damage system for the player
-- Added UI element to display player health
-- Updated player death logic when health reaches zero
-```
+    - Implemented health points and damage system for the player
+    - Added UI element to display player health
+    ```
 
 2. 버그 수정
 
-```
-fix: Resolve player jump bug when colliding with platforms
+    ```
+    fix: Resolve player jump bug when colliding with platforms
     
-- Fixed the issue where player could get stuck in jumping state
-- Adjusted collision detection on platforms
-```
+    - Fixed the issue where player could get stuck in jumping state
+    - Adjusted collision detection on platforms
+    ```
 
 3. 리팩토링
 
-```
-efactor: Simplify enemy movement logic using a state machine
+    ```
+    efactor: Simplify enemy movement logic using a state machine
     
-- Replaced nested conditional logic with a state machine pattern
-- Improved readability and maintainability of the enemy AI code
-```
+    - Replaced nested conditional logic with a state machine pattern
+    - Improved readability and maintainability of the enemy AI code
+    ```
 
 4. 간단한 버그 수정
 
-```
-fix: Resolve player jump bug when colliding with platforms
+    ```
+    fix: Resolve player jump bug when colliding with platforms
     
-- Fixed the issue where player could get stuck in jumping state
-- Adjusted collision detection on platforms
-```
+    - Fixed the issue where player could get stuck in jumping state
+    - Adjusted collision detection on platforms
+    ```
 
 # 2. 브랜치 및 머지 전략
 
