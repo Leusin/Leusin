@@ -31,21 +31,21 @@
 
 1. 기능 구현 브랜치 
 
-    - `develop`/`feature/[기능명]` 
+    - `develop`/`feature`/`[기능명]` 
     - 기능을 개발 후 작업이 끝나면, `develop`브랜치로 머지
 
 2. 버그 수정 브랜치
 
-    - `develop`/`bugfix/[버그명]` 
+    - `develop`/`bugfix`/`[버그명]` 
     - 버그를 수정하고, `develop` 브랜치에 머지
 
 3. 릴리스 브랜치
 
-    - `develop`/`release/[버전명]`
+    - `develop`/`release`/`[버전명]`
     - 릴리스를 위한 최종 조정 및 버그 수정을 진행
     - `main` 브랜치로 머지하고, 태그를 붙여 배포
 
 4. 핫픽스 브랜치
 
-    - `main`or`develop`/`hotfix/[버그명]`
+    - `main`or`develop`/`hotfix`/`[버그명]`
     - 긴급한 문제를 수정하고 `main` 및 `develop` 브랜치로 머지
